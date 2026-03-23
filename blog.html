@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Catatan Iyann</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navigasi */
+        nav {
+            background: #222;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #bbb;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+        }
+        nav a:hover {
+            color: white;
+        }
+
+        /* Container Blog */
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        header.blog-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        header.blog-header h1 {
+            font-size: 2.5rem;
+            color: #222;
+            margin-bottom: 10px;
+        }
+
+        /* Artikel Card */
+        article {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border-left: 5px solid #222; /* Aksen biar gak polos */
+        }
+        article h2 {
+            margin-top: 0;
+            color: #222;
+        }
+        .meta {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 15px;
+            display: block;
+        }
+        .tag {
+            background: #eee;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-right: 5px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #aaa;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html" style="color: white; border-bottom: 2px solid white; padding-bottom: 5px;">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <header class="blog-header">
+            <h1>Berbagi cerita seputar kuliah, hobi, dan kesehatan.</h1>
+        </header>
+
+        <article>
+            <span class="meta"><span class="tag">Teknologi</span> 23 Maret 2026</span>
+            <h2>Suka Belajar Software Engineering</h2>
+            <p>Masuk jurusan Informatika di UNSRAT membuat saya sadar bahwa membangun software bukan sekadar mengetik kode. Ada logika yang harus diasah setiap hari. Kadang pusing melihat error yang tak kunjung selesai, tapi ada kepuasan tersendiri saat aplikasi yang kita buat akhirnya berjalan lancar.</p>
+        </article>
+
+        <article>
+            <span class="meta"><span class="tag">Hobi</span> 20 Maret 2026</span>
+            <h2>Valorant dan Cara Melatih Fokus</h2>
+            <p>Bagi saya, bermain game FPS seperti Valorant bukan cuma buang-buang waktu. Game ini melatih koordinasi tangan, mata, dan yang paling penting: ketenangan di bawah tekanan. Saat harus melakukan *clutch* 1v3, mental kita benar-benar diuji. Ini hiburan terbaik setelah seharian berkutat dengan tugas kuliah.</p>
+        </article>
+
+        <article>
+            <span class="meta"><span class="tag">Kesehatan</span> 22 Maret 2026</span>
+            <h2>Pentingnya Gerak di Sela Coding</h2>
+            <p>Duduk berjam-jam di depan laptop sangat tidak bagus untuk punggung. Akhir-akhir ini saya mencoba lebih rutin berolahraga ringan atau sekadar jalan santai. Ternyata, badan yang segar membuat proses berpikir saat ngoding jadi lebih cepat dan tidak mudah mengantuk.</p>
+        </article>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Iyann &bull; Informatika Universitas Sam Ratulangi</p>
+    </footer>
+
+</body>
+</html>

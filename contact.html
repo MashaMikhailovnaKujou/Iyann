@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Catatan Iyann</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Navigasi */
+        nav {
+            background: #222;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: #bbb;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+        }
+        nav a:hover {
+            color: white;
+        }
+
+        /* Container Luar */
+        .content-container {
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Judul (Sekarang di Luar Kotak) */
+        h2 {
+            margin-bottom: 20px; /* Jarak ke teks deskripsi */
+            color: #222;
+            font-size: 2.5rem; /* Ukuran lebih besar agar menonjol */
+        }
+
+        /* Kotak Profil (Latar Putih) */
+        .profile-box {
+            background: white;
+            padding: 50px 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .subtitle {
+            color: #777;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        /* Bagian Sosial Media & Profil */
+        .social-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .social-item {
+            text-decoration: none;
+            color: #444;
+            transition: transform 0.2s, color 0.2s;
+            min-width: 100px;
+        }
+        .social-item:hover {
+            transform: translateY(-8px);
+            color: #000;
+        }
+        .social-icon {
+            font-size: 3.5rem;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .social-label {
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #aaa;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" style="color: white; border-bottom: 2px solid white; padding-bottom: 5px;">Contact</a>
+    </nav>
+
+    <div class="content-container">
+        <h2>Hubungi Saya</h2>
+
+        <div class="profile-box">
+            <p class="subtitle">Mau ajak main bareng, lihat proyek coding, atau sekadar tanya-tanya? <br> Klik ikon di bawah untuk menuju profil saya:</p>
+
+            <div class="social-links">
+                
+                <a href="https://github.com/MashaMikhailovnaKujou" target="_blank" class="social-item" title="GitHub">
+                    <span class="social-icon">💻</span>
+                    <span class="social-label">GitHub</span>
+                </a>
+
+                <a href="https://www.instagram.com/iyannhotaru/" target="_blank" class="social-item" title="Instagram">
+                    <span class="social-icon">📸</span>
+                    <span class="social-label">Instagram</span>
+                </a>
+
+                <a href="https://discord.com/channels/@me" target="_blank" class="social-item" title="Discord">
+                    <span class="social-icon">🎮</span>
+                    <span class="social-label">Discord</span>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Iyann &bull; Informatika Universitas Sam Ratulangi</p>
+    </footer>
+
+</body>
+</html>
